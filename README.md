@@ -104,10 +104,10 @@ All hyperparameters are stored in `config.json` and read programmatically. No va
 
 | Configuration | Accuracy | F1 (Macro) | F1 (Weighted) |
 |---|---|---|---|
-| LogisticRegression + BoW | ~0.90 | ~0.90 | ~0.90 |
-| LogisticRegression + TF-IDF | ~0.94 | ~0.94 | ~0.94 |
-| NaiveBayes + BoW | ~0.88 | ~0.88 | ~0.88 |
-| NaiveBayes + TF-IDF | ~0.91 | ~0.91 | ~0.91 |
+| LogisticRegression + BoW | 1 | 1 | 1 |
+| LogisticRegression + TF-IDF | 1 | 1 | 1 |
+| NaiveBayes + BoW | 1 | 1 | 1 |
+| NaiveBayes + TF-IDF | 1 | 1 | 1 |
 
 *(Exact values printed in Cell 10 of the notebook after execution)*
 
