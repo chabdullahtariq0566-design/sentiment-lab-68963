@@ -1,0 +1,23 @@
+artifact_path: /content/drive/MyDrive/sentiment-lab-68963/mlruns/1/models/m-d9ee3c457c1243218cc16886a1078076/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.13
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.6.1
+    skops_trusted_types: null
+mlflow_version: 3.14.0
+model_id: m-d9ee3c457c1243218cc16886a1078076
+model_size_bytes: 45987
+model_uuid: m-d9ee3c457c1243218cc16886a1078076
+prompts: null
+run_id: 4004254563b44c01b8356d90171bf1f0
+utc_time_created: '2026-06-19 08:16:38.952777'
